@@ -1,0 +1,42 @@
+/* FOOTER */
+
+.foot {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 25px;
+    grid-area: footer;
+    background: linear-gradient(to top, #642b73, #c6426e);
+
+    a {
+        color: red;
+        font-family: 'Monserrat', Arial, Helvetica, sans-serif;
+    }
+}
+
+.menu ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.contactos {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: 30px 0px;
+    grid-area: contactos;
+}
+
+.redes {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 10px;
+}
+
+h5 {
+    color: black;
+    font-size: 15px;
+    font-family: 'Monserrat', Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,84 @@
+@import 'variables.scss';
+
+/* MI HEADER*/
+h1 {
+    @extend %h1;
+}
+
+nav {
+    color: whitesmoke;
+    font-weight: 200;
+    width: 100%;
+}
+
+.imagenlogo {
+    background-image: url(../media/bebidas_alcoholicas.jpg);
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    grid-area: 'header';
+}
+
+.menuPrincipal {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to top, #642b73, #c6426e);
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.menu ul li a:hover {
+    background-color: black;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+}
+
+.menu ul ul li {
+    display: block;
+    position: relative;
+}
+
+.menu ul li {
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+h2 {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.iframeVideo {
+    display: flex;
+    flex-flow: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}

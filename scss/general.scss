@@ -1,0 +1,127 @@
+/* Mi grilla */
+
+.miGrilla {
+    display: grid;
+    grid-template-areas:
+        'header'
+        'section'
+        'marcasDestacadas'
+        'contactos'
+        'footer';
+    grid-template-rows: 250px 350px 350px 250px;
+    justify-content: center;
+}
+
+/* BODYs Generales  */
+
+body {
+    background-image: url(../css/media/fondo.png);
+    background-repeat: repeat;
+    font-family: 'Montserrat', 'Roboto Slab', sans-serif;
+}
+
+.marcasDestacadas {
+    width: 90%;
+    height: 250px;
+    padding: 5%;
+}
+
+.videoCentro {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parrafo {
+    color: #4c5b5c;
+}
+
+.listaQuienes {
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.listarOraciones {
+    color: whitesmoke;
+}
+
+.resaltaMarca {
+    color: whitesmoke;
+    font-weight: 900;
+}
+
+/* Mi grilla */
+
+.miGrilla {
+    display: grid;
+    grid-template-areas:
+        'header'
+        'section'
+        'marcasDestacadas'
+        'contactos'
+        'footer';
+    grid-template-rows: 250px 350px 350px 250px;
+    justify-content: center;
+}
+
+/* Clases Pagina Ingresar */
+/*formulario ingresar*/
+
+.contenedorTabla {
+    padding: 50px;
+}
+
+.alineacionTabla {
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formIngresar {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.estiloForm {
+    width: 300px;
+    height: 275px;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    padding-bottom: 20px;
+}
+
+.estiloFormulario {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botones {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+label {
+    margin: 5px 10px 1px 10px;
+    padding: 10px;
+}
+
+input {
+    margin: 5px 10px 1px 10px;
+    padding: 10px;
+}
+
+.contenedorCarousel {
+    width: 300px;
+    height: 300px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
