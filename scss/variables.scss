@@ -18,7 +18,7 @@ $condition: 700px;
     letter-spacing: 5px;
     padding: 50px 100px;
     margin: 5px;
-    transform: skew(5deg, 10deg);
+    // transform: skew(5deg, 10deg);
     @include sizes(50px, pink);
 
     @if $condition != 700px {
