@@ -2,8 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Las bebidas mas cool de Còrdoba</title>
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -15,12 +15,13 @@
             integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
             crossorigin="anonymous"
         ></script>
-        <link rel="stylesheet" href="estilos/estilos.css" />
+        <link rel="stylesheet" href="css/estilos.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;0,900;1,500;1,800;1,900&family=Roboto&family=Roboto+Slab&display=swap"
             rel="stylesheet"
         />
-        <title>Bebidas</title>
+        <title>Tipos de Bebidas</title>
         <meta
             name="Description"
             content="Esta es una pagina web donde podras conocer nuestras marcas premium de bebidas con y sin alcohol"
@@ -32,27 +33,30 @@
     </head>
     <body>
         <header>
-            <div class="header">
-                <div class="imagenlogo"></div>
-                <div class="menuPrincipal">
-                    <h1>Le Bon Vin</h1>
-                    <nav class="menu">
-                        <ul>
-                            <li><a href="Index.html"> Home </a></li>
-                            <li><a href="Ingresar.html"> Ingresar </a></li>
-                            <li><a href="Tipos de bebidas.html"> Tipos de bebidas </a></li>
-                            <li>
-                                <a href="Tragos.html"> Tragos </a>
-                                <ul>
-                                    <li><a href="#">Recetas con Alcohol</a></li>
-                                    <li><a href="#">Recetas sin alcohol</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav>
+            <header class="container-fluid">
+                <div class="row">
+                    <!-- <div class="header"> -->
+                    <div class="imagenlogo col"></div>
+                    <div class="menuPrincipal col">
+                        <h1>Le Bon Vin</h1>
+                        <nav class="menu">
+                            <ul>
+                                <li><a href="Index.html"> Home </a></li>
+                                <li><a href="Ingresar.html"> Ingresar </a></li>
+                                <li><a href="TiposdeBebidas.html"> Tipos de bebidas </a></li>
+                                <li>
+                                    <a href="Tragos.html"> Tragos </a>
+                                    <ul>
+                                        <li><a href="#">Recetas con Alcohol</a></li>
+                                        <li><a href="#">Recetas sin alcohol</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- </div> -->
                 </div>
-            </div>
-        </header>
+            </header>
         <section class="container contenedorTabla">
             <table class="table table-bordered border-primary table-light table-striped table align-middle">
                 <tr>
@@ -92,8 +96,10 @@
             </table>
         </section>
         <footer class="foot">
-            <a href="Quienes somos.html"> Quienes somos </a> | <a href="faq.html"> FAQ </a> |
-            <a href="contactanos.html"> Contactanos </a>
+            <div class="Container col-12 justify-content-center">
+                <a href="QuienesSomos.html"> Quienes somos </a> | <a href="faq.html"> FAQ </a> |
+                <a href="contactanos.html"> Contactanos </a>
+            </div>
         </footer>
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
